@@ -1,0 +1,35 @@
+{
+  "name": "new-magzine-backend",
+  "version": "1.0.0",
+  "description": "항해99 주특기 주차 매거진 사이트 만들기 리팩토링",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node ./src/server.ts",
+    "start": "nodemon dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeongmisnu/new-magzine-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeongmisnu/new-magzine-backend/issues"
+  },
+  "homepage": "https://github.com/jeongmisnu/new-magzine-backend#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.44"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.21",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "eslint": "^8.10.0",
+    "ts-node": "^10.6.0"
+  }
+}
